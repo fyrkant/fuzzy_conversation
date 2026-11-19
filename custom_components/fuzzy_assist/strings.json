@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fuzzy Assist",
+        "description": "Local fuzzy matching on top of the built-in Assist agent. Commands the built-in agent understands go straight through; the rest are fuzzy-matched against your exposed lights, switches, fans and areas.",
+        "data": {
+          "threshold": "Name match threshold (%)",
+          "step": "Brighter/dimmer step (%)",
+          "fallback_agent": "Agent to try first"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Fuzzy Assist is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Fuzzy Assist",
+        "data": {
+          "threshold": "Name match threshold (%)",
+          "step": "Brighter/dimmer step (%)",
+          "fallback_agent": "Agent to try first"
+        }
+      }
+    }
+  }
+}
